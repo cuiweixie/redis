@@ -1,0 +1,6 @@
+/Users/weixiecui/code/c/redis/src/modules/CMakeFiles/rebuild_cache.dir
+/Users/weixiecui/code/c/redis/src/modules/CMakeFiles/edit_cache.dir
+/Users/weixiecui/code/c/redis/src/modules/CMakeFiles/testmodule.dir
+/Users/weixiecui/code/c/redis/src/modules/CMakeFiles/helloblock.dir
+/Users/weixiecui/code/c/redis/src/modules/CMakeFiles/hellotype.dir
+/Users/weixiecui/code/c/redis/src/modules/CMakeFiles/helloworld.dir

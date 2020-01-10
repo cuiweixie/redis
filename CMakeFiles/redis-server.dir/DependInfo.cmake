@@ -1,0 +1,96 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/Users/weixiecui/code/c/redis/src/adlist.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/adlist.c.o"
+  "/Users/weixiecui/code/c/redis/src/ae.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/ae.c.o"
+  "/Users/weixiecui/code/c/redis/src/ae_kqueue.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/ae_kqueue.c.o"
+  "/Users/weixiecui/code/c/redis/src/anet.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/anet.c.o"
+  "/Users/weixiecui/code/c/redis/src/aof.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/aof.c.o"
+  "/Users/weixiecui/code/c/redis/src/bio.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/bio.c.o"
+  "/Users/weixiecui/code/c/redis/src/bitops.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/bitops.c.o"
+  "/Users/weixiecui/code/c/redis/src/blocked.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/blocked.c.o"
+  "/Users/weixiecui/code/c/redis/src/childinfo.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/childinfo.c.o"
+  "/Users/weixiecui/code/c/redis/src/cluster.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/cluster.c.o"
+  "/Users/weixiecui/code/c/redis/src/config.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/config.c.o"
+  "/Users/weixiecui/code/c/redis/src/crc16.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/crc16.c.o"
+  "/Users/weixiecui/code/c/redis/src/crc64.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/crc64.c.o"
+  "/Users/weixiecui/code/c/redis/src/db.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/db.c.o"
+  "/Users/weixiecui/code/c/redis/src/debug.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/debug.c.o"
+  "/Users/weixiecui/code/c/redis/src/defrag.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/defrag.c.o"
+  "/Users/weixiecui/code/c/redis/src/dict.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/dict.c.o"
+  "/Users/weixiecui/code/c/redis/src/endianconv.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/endianconv.c.o"
+  "/Users/weixiecui/code/c/redis/src/evict.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/evict.c.o"
+  "/Users/weixiecui/code/c/redis/src/expire.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/expire.c.o"
+  "/Users/weixiecui/code/c/redis/src/geo.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/geo.c.o"
+  "/Users/weixiecui/code/c/redis/src/geohash.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/geohash.c.o"
+  "/Users/weixiecui/code/c/redis/src/geohash_helper.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/geohash_helper.c.o"
+  "/Users/weixiecui/code/c/redis/src/hyperloglog.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/hyperloglog.c.o"
+  "/Users/weixiecui/code/c/redis/src/intset.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/intset.c.o"
+  "/Users/weixiecui/code/c/redis/src/latency.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/latency.c.o"
+  "/Users/weixiecui/code/c/redis/src/lazyfree.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/lazyfree.c.o"
+  "/Users/weixiecui/code/c/redis/src/listpack.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/listpack.c.o"
+  "/Users/weixiecui/code/c/redis/src/localtime.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/localtime.c.o"
+  "/Users/weixiecui/code/c/redis/src/lolwut.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/lolwut.c.o"
+  "/Users/weixiecui/code/c/redis/src/lolwut5.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/lolwut5.c.o"
+  "/Users/weixiecui/code/c/redis/src/lzf_c.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/lzf_c.c.o"
+  "/Users/weixiecui/code/c/redis/src/lzf_d.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/lzf_d.c.o"
+  "/Users/weixiecui/code/c/redis/src/memtest.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/memtest.c.o"
+  "/Users/weixiecui/code/c/redis/src/module.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/module.c.o"
+  "/Users/weixiecui/code/c/redis/src/multi.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/multi.c.o"
+  "/Users/weixiecui/code/c/redis/src/networking.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/networking.c.o"
+  "/Users/weixiecui/code/c/redis/src/notify.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/notify.c.o"
+  "/Users/weixiecui/code/c/redis/src/object.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/object.c.o"
+  "/Users/weixiecui/code/c/redis/src/pqsort.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/pqsort.c.o"
+  "/Users/weixiecui/code/c/redis/src/pubsub.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/pubsub.c.o"
+  "/Users/weixiecui/code/c/redis/src/quicklist.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/quicklist.c.o"
+  "/Users/weixiecui/code/c/redis/src/rand.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/rand.c.o"
+  "/Users/weixiecui/code/c/redis/src/rax.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/rax.c.o"
+  "/Users/weixiecui/code/c/redis/src/rdb.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/rdb.c.o"
+  "/Users/weixiecui/code/c/redis/src/redis-check-aof.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/redis-check-aof.c.o"
+  "/Users/weixiecui/code/c/redis/src/redis-check-rdb.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/redis-check-rdb.c.o"
+  "/Users/weixiecui/code/c/redis/src/release.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/release.c.o"
+  "/Users/weixiecui/code/c/redis/src/replication.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/replication.c.o"
+  "/Users/weixiecui/code/c/redis/src/rio.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/rio.c.o"
+  "/Users/weixiecui/code/c/redis/src/scripting.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/scripting.c.o"
+  "/Users/weixiecui/code/c/redis/src/sds.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/sds.c.o"
+  "/Users/weixiecui/code/c/redis/src/sentinel.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/sentinel.c.o"
+  "/Users/weixiecui/code/c/redis/src/server.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/server.c.o"
+  "/Users/weixiecui/code/c/redis/src/setproctitle.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/setproctitle.c.o"
+  "/Users/weixiecui/code/c/redis/src/sha1.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/sha1.c.o"
+  "/Users/weixiecui/code/c/redis/src/siphash.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/siphash.c.o"
+  "/Users/weixiecui/code/c/redis/src/slowlog.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/slowlog.c.o"
+  "/Users/weixiecui/code/c/redis/src/sort.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/sort.c.o"
+  "/Users/weixiecui/code/c/redis/src/sparkline.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/sparkline.c.o"
+  "/Users/weixiecui/code/c/redis/src/syncio.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/syncio.c.o"
+  "/Users/weixiecui/code/c/redis/src/t_hash.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/t_hash.c.o"
+  "/Users/weixiecui/code/c/redis/src/t_list.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/t_list.c.o"
+  "/Users/weixiecui/code/c/redis/src/t_set.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/t_set.c.o"
+  "/Users/weixiecui/code/c/redis/src/t_stream.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/t_stream.c.o"
+  "/Users/weixiecui/code/c/redis/src/t_string.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/t_string.c.o"
+  "/Users/weixiecui/code/c/redis/src/t_zset.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/t_zset.c.o"
+  "/Users/weixiecui/code/c/redis/src/util.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/util.c.o"
+  "/Users/weixiecui/code/c/redis/src/ziplist.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/ziplist.c.o"
+  "/Users/weixiecui/code/c/redis/src/zipmap.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/zipmap.c.o"
+  "/Users/weixiecui/code/c/redis/src/zmalloc.c" "/Users/weixiecui/code/c/redis/CMakeFiles/redis-server.dir/src/zmalloc.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "AppleClang")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "deps/linenoise"
+  "deps/hiredis"
+  "deps/lua/src"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/weixiecui/code/c/redis/deps/lua/CMakeFiles/lua.dir/DependInfo.cmake"
+  "/Users/weixiecui/code/c/redis/deps/linenoise/CMakeFiles/linenoise.dir/DependInfo.cmake"
+  "/Users/weixiecui/code/c/redis/deps/hiredis/CMakeFiles/hiredis.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

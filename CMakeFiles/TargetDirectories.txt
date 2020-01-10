@@ -1,0 +1,3 @@
+/Users/weixiecui/code/c/redis/CMakeFiles/rebuild_cache.dir
+/Users/weixiecui/code/c/redis/CMakeFiles/edit_cache.dir
+/Users/weixiecui/code/c/redis/CMakeFiles/redis.dir
