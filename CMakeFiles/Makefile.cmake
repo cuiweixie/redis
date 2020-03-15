@@ -98,6 +98,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
   "CMakeLists.txt"
+  "deps/CMakeLists.txt"
+  "deps/hiredis/CMakeLists.txt"
+  "deps/linenoise/CMakeLists.txt"
+  "deps/lua/CMakeLists.txt"
+  "src/modules/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -114,9 +119,22 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "deps/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "deps/hiredis/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "deps/linenoise/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "deps/lua/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/modules/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/redis.dir/DependInfo.cmake"
+  "CMakeFiles/redis-cli.dir/DependInfo.cmake"
+  "CMakeFiles/redis-server.dir/DependInfo.cmake"
+  "deps/hiredis/CMakeFiles/hiredis.dir/DependInfo.cmake"
+  "deps/linenoise/CMakeFiles/linenoise.dir/DependInfo.cmake"
+  "deps/lua/CMakeFiles/lua.dir/DependInfo.cmake"
+  "src/modules/CMakeFiles/testmodule.dir/DependInfo.cmake"
+  "src/modules/CMakeFiles/helloblock.dir/DependInfo.cmake"
+  "src/modules/CMakeFiles/hellotype.dir/DependInfo.cmake"
+  "src/modules/CMakeFiles/helloworld.dir/DependInfo.cmake"
   )
