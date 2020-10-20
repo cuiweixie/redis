@@ -60,15 +60,15 @@ include src/modules/CMakeFiles/helloworld.dir/flags.make
 src/modules/CMakeFiles/helloworld.dir/helloworld.c.o: src/modules/CMakeFiles/helloworld.dir/flags.make
 src/modules/CMakeFiles/helloworld.dir/helloworld.c.o: src/modules/helloworld.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weixiecui/code/c/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/modules/CMakeFiles/helloworld.dir/helloworld.c.o"
-	cd /Users/weixiecui/code/c/redis/src/modules && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/helloworld.c.o   -c /Users/weixiecui/code/c/redis/src/modules/helloworld.c
+	cd /Users/weixiecui/code/c/redis/src/modules && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloworld.dir/helloworld.c.o   -c /Users/weixiecui/code/c/redis/src/modules/helloworld.c
 
 src/modules/CMakeFiles/helloworld.dir/helloworld.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloworld.dir/helloworld.c.i"
-	cd /Users/weixiecui/code/c/redis/src/modules && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/weixiecui/code/c/redis/src/modules/helloworld.c > CMakeFiles/helloworld.dir/helloworld.c.i
+	cd /Users/weixiecui/code/c/redis/src/modules && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/weixiecui/code/c/redis/src/modules/helloworld.c > CMakeFiles/helloworld.dir/helloworld.c.i
 
 src/modules/CMakeFiles/helloworld.dir/helloworld.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloworld.dir/helloworld.c.s"
-	cd /Users/weixiecui/code/c/redis/src/modules && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/weixiecui/code/c/redis/src/modules/helloworld.c -o CMakeFiles/helloworld.dir/helloworld.c.s
+	cd /Users/weixiecui/code/c/redis/src/modules && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/weixiecui/code/c/redis/src/modules/helloworld.c -o CMakeFiles/helloworld.dir/helloworld.c.s
 
 # Object files for target helloworld
 helloworld_OBJECTS = \

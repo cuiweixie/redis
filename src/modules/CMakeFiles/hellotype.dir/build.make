@@ -60,15 +60,15 @@ include src/modules/CMakeFiles/hellotype.dir/flags.make
 src/modules/CMakeFiles/hellotype.dir/hellotype.c.o: src/modules/CMakeFiles/hellotype.dir/flags.make
 src/modules/CMakeFiles/hellotype.dir/hellotype.c.o: src/modules/hellotype.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weixiecui/code/c/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/modules/CMakeFiles/hellotype.dir/hellotype.c.o"
-	cd /Users/weixiecui/code/c/redis/src/modules && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hellotype.dir/hellotype.c.o   -c /Users/weixiecui/code/c/redis/src/modules/hellotype.c
+	cd /Users/weixiecui/code/c/redis/src/modules && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hellotype.dir/hellotype.c.o   -c /Users/weixiecui/code/c/redis/src/modules/hellotype.c
 
 src/modules/CMakeFiles/hellotype.dir/hellotype.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hellotype.dir/hellotype.c.i"
-	cd /Users/weixiecui/code/c/redis/src/modules && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/weixiecui/code/c/redis/src/modules/hellotype.c > CMakeFiles/hellotype.dir/hellotype.c.i
+	cd /Users/weixiecui/code/c/redis/src/modules && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/weixiecui/code/c/redis/src/modules/hellotype.c > CMakeFiles/hellotype.dir/hellotype.c.i
 
 src/modules/CMakeFiles/hellotype.dir/hellotype.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hellotype.dir/hellotype.c.s"
-	cd /Users/weixiecui/code/c/redis/src/modules && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/weixiecui/code/c/redis/src/modules/hellotype.c -o CMakeFiles/hellotype.dir/hellotype.c.s
+	cd /Users/weixiecui/code/c/redis/src/modules && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/weixiecui/code/c/redis/src/modules/hellotype.c -o CMakeFiles/hellotype.dir/hellotype.c.s
 
 # Object files for target hellotype
 hellotype_OBJECTS = \

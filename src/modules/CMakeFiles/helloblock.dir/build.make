@@ -60,15 +60,15 @@ include src/modules/CMakeFiles/helloblock.dir/flags.make
 src/modules/CMakeFiles/helloblock.dir/helloblock.c.o: src/modules/CMakeFiles/helloblock.dir/flags.make
 src/modules/CMakeFiles/helloblock.dir/helloblock.c.o: src/modules/helloblock.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weixiecui/code/c/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/modules/CMakeFiles/helloblock.dir/helloblock.c.o"
-	cd /Users/weixiecui/code/c/redis/src/modules && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloblock.dir/helloblock.c.o   -c /Users/weixiecui/code/c/redis/src/modules/helloblock.c
+	cd /Users/weixiecui/code/c/redis/src/modules && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloblock.dir/helloblock.c.o   -c /Users/weixiecui/code/c/redis/src/modules/helloblock.c
 
 src/modules/CMakeFiles/helloblock.dir/helloblock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloblock.dir/helloblock.c.i"
-	cd /Users/weixiecui/code/c/redis/src/modules && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/weixiecui/code/c/redis/src/modules/helloblock.c > CMakeFiles/helloblock.dir/helloblock.c.i
+	cd /Users/weixiecui/code/c/redis/src/modules && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/weixiecui/code/c/redis/src/modules/helloblock.c > CMakeFiles/helloblock.dir/helloblock.c.i
 
 src/modules/CMakeFiles/helloblock.dir/helloblock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloblock.dir/helloblock.c.s"
-	cd /Users/weixiecui/code/c/redis/src/modules && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/weixiecui/code/c/redis/src/modules/helloblock.c -o CMakeFiles/helloblock.dir/helloblock.c.s
+	cd /Users/weixiecui/code/c/redis/src/modules && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/weixiecui/code/c/redis/src/modules/helloblock.c -o CMakeFiles/helloblock.dir/helloblock.c.s
 
 # Object files for target helloblock
 helloblock_OBJECTS = \

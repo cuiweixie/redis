@@ -60,15 +60,15 @@ include src/modules/CMakeFiles/testmodule.dir/flags.make
 src/modules/CMakeFiles/testmodule.dir/testmodule.c.o: src/modules/CMakeFiles/testmodule.dir/flags.make
 src/modules/CMakeFiles/testmodule.dir/testmodule.c.o: src/modules/testmodule.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weixiecui/code/c/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/modules/CMakeFiles/testmodule.dir/testmodule.c.o"
-	cd /Users/weixiecui/code/c/redis/src/modules && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testmodule.dir/testmodule.c.o   -c /Users/weixiecui/code/c/redis/src/modules/testmodule.c
+	cd /Users/weixiecui/code/c/redis/src/modules && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testmodule.dir/testmodule.c.o   -c /Users/weixiecui/code/c/redis/src/modules/testmodule.c
 
 src/modules/CMakeFiles/testmodule.dir/testmodule.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testmodule.dir/testmodule.c.i"
-	cd /Users/weixiecui/code/c/redis/src/modules && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/weixiecui/code/c/redis/src/modules/testmodule.c > CMakeFiles/testmodule.dir/testmodule.c.i
+	cd /Users/weixiecui/code/c/redis/src/modules && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/weixiecui/code/c/redis/src/modules/testmodule.c > CMakeFiles/testmodule.dir/testmodule.c.i
 
 src/modules/CMakeFiles/testmodule.dir/testmodule.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testmodule.dir/testmodule.c.s"
-	cd /Users/weixiecui/code/c/redis/src/modules && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/weixiecui/code/c/redis/src/modules/testmodule.c -o CMakeFiles/testmodule.dir/testmodule.c.s
+	cd /Users/weixiecui/code/c/redis/src/modules && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/weixiecui/code/c/redis/src/modules/testmodule.c -o CMakeFiles/testmodule.dir/testmodule.c.s
 
 # Object files for target testmodule
 testmodule_OBJECTS = \

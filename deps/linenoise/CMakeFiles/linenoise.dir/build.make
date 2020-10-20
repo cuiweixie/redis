@@ -60,15 +60,15 @@ include deps/linenoise/CMakeFiles/linenoise.dir/flags.make
 deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o: deps/linenoise/CMakeFiles/linenoise.dir/flags.make
 deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o: deps/linenoise/linenoise.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weixiecui/code/c/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o"
-	cd /Users/weixiecui/code/c/redis/deps/linenoise && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linenoise.dir/linenoise.c.o   -c /Users/weixiecui/code/c/redis/deps/linenoise/linenoise.c
+	cd /Users/weixiecui/code/c/redis/deps/linenoise && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linenoise.dir/linenoise.c.o   -c /Users/weixiecui/code/c/redis/deps/linenoise/linenoise.c
 
 deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linenoise.dir/linenoise.c.i"
-	cd /Users/weixiecui/code/c/redis/deps/linenoise && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/weixiecui/code/c/redis/deps/linenoise/linenoise.c > CMakeFiles/linenoise.dir/linenoise.c.i
+	cd /Users/weixiecui/code/c/redis/deps/linenoise && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/weixiecui/code/c/redis/deps/linenoise/linenoise.c > CMakeFiles/linenoise.dir/linenoise.c.i
 
 deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linenoise.dir/linenoise.c.s"
-	cd /Users/weixiecui/code/c/redis/deps/linenoise && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/weixiecui/code/c/redis/deps/linenoise/linenoise.c -o CMakeFiles/linenoise.dir/linenoise.c.s
+	cd /Users/weixiecui/code/c/redis/deps/linenoise && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/weixiecui/code/c/redis/deps/linenoise/linenoise.c -o CMakeFiles/linenoise.dir/linenoise.c.s
 
 # Object files for target linenoise
 linenoise_OBJECTS = \
